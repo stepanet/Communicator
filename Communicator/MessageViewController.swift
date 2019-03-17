@@ -9,6 +9,7 @@ class MessageViewController: UIViewController {
 
     let messageService = Communicator()
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         messageService.delegate = self
